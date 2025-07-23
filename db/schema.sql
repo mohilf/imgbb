@@ -1,0 +1,1 @@
+-- Placeholder. Will be used when we add user system and image metadata tracking.

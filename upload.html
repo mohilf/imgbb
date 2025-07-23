@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Image - ImageHoster</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="upload-container">
+    <h2>Select an Image to Upload</h2>
+    <form id="uploadForm" action="php/upload.php" method="POST" enctype="multipart/form-data">
+      <input type="file" name="image" accept="image/*" required>
+      <button type="submit">Upload</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="js/upload.js"></script>
+</body>
+</html>
